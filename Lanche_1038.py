@@ -1,6 +1,7 @@
 codigo = int(input())
 quantidade = int(input())
-
-if(condigo = 1):
-    float valor = quantidade * 4.00
-    print(valor)
+valor = 0.0
+if(codigo == 1):
+    valor = 4.0 * quantidade
+    print('valorTotal: R$', valor)
+    
