@@ -1,7 +1,8 @@
-codigo = int(input())
-quantidade = int(input())
+entrada = input().split()
+codigo = int(entrada[0])
+quantidade = int(entrada[1])
 valor = 0.0
-if(codigo == 1):
+if (codigo == 1):
     valor = 4.0 * quantidade
 elif(codigo == 2):
     valor = 4.5 * quantidade
